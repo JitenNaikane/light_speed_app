@@ -87,6 +87,7 @@ class _MyAppState extends State<MyApp> {
                 ? Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
+                //for FACEBOOK
                /* Image.network(userProfile["picture"]["data"]["url"], height: 50.0, width: 50.0,),
                 Text(userProfile["name"]),
                 Text(userProfile["email"]),
@@ -97,6 +98,7 @@ class _MyAppState extends State<MyApp> {
                   {
                     _logout();
                    },),*/
+               //For Googel Sign in
                 Image.network(_googleSignIn.currentUser.photoUrl, height: 50.0, width: 50.0,),
                 Text(_googleSignIn.currentUser.displayName),
                 Text(_googleSignIn.currentUser.id),
