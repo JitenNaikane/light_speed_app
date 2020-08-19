@@ -21,7 +21,7 @@ class _MyAppState extends State<MyApp> {
   GoogleSignIn _googleSignIn = GoogleSignIn(scopes: ['email']);
 
   _loginWithFB() async{
-  //Loginfb
+  //Loginfb flutter
 /
     final result = await facebookLogin.logInWithReadPermissions(['email']);
 
