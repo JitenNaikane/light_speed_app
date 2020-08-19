@@ -22,7 +22,7 @@ class _MyAppState extends State<MyApp> {
 
   _loginWithFB() async{
 
-
+//fbLogin comment
     final result = await facebookLogin.logInWithReadPermissions(['email']);
 
     switch (result.status) {
