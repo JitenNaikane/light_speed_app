@@ -21,8 +21,8 @@ class _MyAppState extends State<MyApp> {
   GoogleSignIn _googleSignIn = GoogleSignIn(scopes: ['email']);
 
   _loginWithFB() async{
-
-//fbLogin comment
+  //Loginfb
+/
     final result = await facebookLogin.logInWithReadPermissions(['email']);
 
     switch (result.status) {
